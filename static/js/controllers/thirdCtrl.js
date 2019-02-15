@@ -78,21 +78,21 @@ angular.module('myApp.controllers').controller('thirdCtrl',
             // Deklaracja tablicy uczestników z początkowymi danymi
             $scope.uczestnicy = [
                 {
-                    'imie' : 'Tadeusz',
-                    'nazwisko' : 'Zakorczmenny',
-                    'wynik' : 3.5
+                    'imie' : 'Zuzanna',
+                    'nazwisko' : 'Kebab',
+                    'wynik' : 10
                 }, {
-                    'imie' : 'Jacek',
-                    'nazwisko' : 'Zowakowski',
-                    'wynik' : 2.0
+                    'imie' : 'Piotr',
+                    'nazwisko' : 'Pizza',
+                    'wynik' : 5
                 }, {
-                    'imie' : 'Sylwia',
-                    'nazwisko' : 'Polak',
-                    'wynik' : 3.0
+                    'imie' : 'Aleks',
+                    'nazwisko' : 'Falafel',
+                    'wynik' : 3
                 }, {
-                    'imie' : 'Marzena',
-                    'nazwisko' : 'Polak',
-                    'wynik' : 3.5
+                    'imie' : 'Marlena',
+                    'nazwisko' : 'Pizza',
+                    'wynik' : 1
                 }
             ];
 

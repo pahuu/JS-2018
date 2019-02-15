@@ -31,7 +31,11 @@ app.config(['$routeProvider', '$logProvider', function ($routeProvider, $logProv
     }).when('/teacher', {
         templateUrl: urlBase + 'teacherView.html',
         controller: 'teacherCtrl'
-    });
+    })
+        .when('/zamowView', {
+            templateUrl: urlBase + 'zamowView.html',
+            controller: 'zamowCtrl'
+        });
 }]);
 
 //// COMMON DEFINITIONS
